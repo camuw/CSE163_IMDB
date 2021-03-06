@@ -45,7 +45,7 @@ def get_ttcode(string):
 
 
 def main():
-    string = "game of thrones"
+    string = "breaking bad"
     tt_string = get_ttcode(string)
     season_length = get_season_length(tt_string)
     print(season_length, tt_string, string)
