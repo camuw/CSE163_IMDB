@@ -1,0 +1,74 @@
+season,episode_num,imdb_rating,title
+1,1,9.1,Winter Is Coming
+1,2,8.8,The Kingsroad
+1,3,8.7,Lord Snow
+1,4,8.8,"Cripples, Bastards, and Broken Things"
+1,5,9.1,The Wolf and the Lion
+1,6,9.2,A Golden Crown
+1,7,9.2,You Win or You Die
+1,8,9.0,The Pointy End
+1,9,9.6,Baelor
+1,10,9.5,Fire and Blood
+2,1,8.8,The North Remembers
+2,2,8.5,The Night Lands
+2,3,8.8,What Is Dead May Never Die
+2,4,8.8,Garden of Bones
+2,5,8.8,The Ghost of Harrenhal
+2,6,9.1,The Old Gods and the New
+2,7,8.9,A Man Without Honor
+2,8,8.8,The Prince of Winterfell
+2,9,9.7,Blackwater
+2,10,9.4,Valar Morghulis
+3,1,8.8,Valar Dohaeris
+3,2,8.6,"Dark Wings, Dark Words"
+3,3,8.9,Walk of Punishment
+3,4,9.6,And Now His Watch Is Ended
+3,5,9.0,Kissed by Fire
+3,6,8.8,The Climb
+3,7,8.7,The Bear and the Maiden Fair
+3,8,9.0,Second Sons
+3,9,9.9,The Rains of Castamere
+3,10,9.2,Mhysa
+4,1,9.1,Two Swords
+4,2,9.7,The Lion and the Rose
+4,3,8.9,Breaker of Chains
+4,4,8.8,Oathkeeper
+4,5,8.8,First of His Name
+4,6,9.7,The Laws of Gods and Men
+4,7,9.1,Mockingbird
+4,8,9.7,The Mountain and the Viper
+4,9,9.6,The Watchers on the Wall
+4,10,9.7,The Children
+5,1,8.5,The Wars to Come
+5,2,8.5,The House of Black and White
+5,3,8.5,High Sparrow
+5,4,8.7,Sons of the Harpy
+5,5,8.6,Kill the Boy
+5,6,8.0,"Unbowed, Unbent, Unbroken"
+5,7,9.0,The Gift
+5,8,9.9,Hardhome
+5,9,9.5,The Dance of Dragons
+5,10,9.1,Mother's Mercy
+6,1,8.5,The Red Woman
+6,2,9.4,Home
+6,3,8.7,Oathbreaker
+6,4,9.1,Book of the Stranger
+6,5,9.7,The Door
+6,6,8.4,Blood of My Blood
+6,7,8.6,The Broken Man
+6,8,8.4,No One
+6,9,9.9,Battle of the Bastards
+6,10,9.9,The Winds of Winter
+7,1,8.6,Dragonstone
+7,2,8.9,Stormborn
+7,3,9.2,The Queen's Justice
+7,4,9.8,The Spoils of War
+7,5,8.8,Eastwatch
+7,6,9.0,Beyond the Wall
+7,7,9.4,The Dragon and the Wolf
+8,1,7.5,Winterfell
+8,2,7.8,A Knight of the Seven Kingdoms
+8,3,7.4,The Long Night
+8,4,5.4,The Last of the Starks
+8,5,5.9,The Bells
+8,6,4.0,The Iron Throne
