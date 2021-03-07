@@ -1,0 +1,63 @@
+season,episode_num,imdb_rating,title
+1,1,9.1,Pilot
+1,2,8.7,Cat's in the Bag...
+1,3,8.8,...And the Bag's in the River
+1,4,8.3,Cancer Man
+1,5,8.4,Gray Matter
+1,6,9.3,Crazy Handful of Nothin'
+1,7,8.9,A No-Rough-Stuff-Type Deal
+2,1,8.7,Seven Thirty-Seven
+2,2,9.3,Grilled
+2,3,8.4,Bit by a Dead Bee
+2,4,8.3,Down
+2,5,8.4,Breakage
+2,6,8.9,Peekaboo
+2,7,8.7,Negro y Azul
+2,8,9.2,Better Call Saul
+2,9,9.2,4 Days Out
+2,10,8.6,Over
+2,11,8.9,Mandala
+2,12,9.3,Phoenix
+2,13,9.3,ABQ
+3,1,8.6,No Más
+3,2,8.7,Caballo sin Nombre
+3,3,8.5,I.F.T.
+3,4,8.3,Green Light
+3,5,8.7,Más
+3,6,9.3,Sunset
+3,7,9.6,One Minute
+3,8,8.8,I See You
+3,9,8.5,Kafkaesque
+3,10,7.8,Fly
+3,11,8.5,Abiquiu
+3,12,9.5,Half Measures
+3,13,9.7,Full Measure
+4,1,9.2,Box Cutter
+4,2,8.3,Thirty-Eight Snub
+4,3,8.1,Open House
+4,4,8.7,Bullet Points
+4,5,8.7,Shotgun
+4,6,8.5,Cornered
+4,7,8.9,Problem Dog
+4,8,9.3,Hermanos
+4,9,8.9,Bug
+4,10,9.6,Salud
+4,11,9.7,Crawl Space
+4,12,9.5,End Times
+4,13,9.9,Face Off
+5,1,9.3,Live Free or Die
+5,2,8.9,Madrigal
+5,3,8.9,Hazard Pay
+5,4,8.9,Fifty-One
+5,5,9.7,Dead Freight
+5,6,9.1,Buyout
+5,7,9.6,Say My Name
+5,8,9.6,Gliding Over All
+5,9,9.5,Blood Money
+5,10,9.2,Buried
+5,11,9.6,Confessions
+5,12,9.2,Rabid Dog
+5,13,9.8,To'hajiilee
+5,14,10.0,Ozymandias
+5,15,9.7,Granite State
+5,16,9.9,Felina
