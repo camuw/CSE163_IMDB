@@ -1,0 +1,301 @@
+season,episode_num,imdb_rating,title
+1,1,7.3,Pilot
+1,2,7.2,Threat Levels
+1,3,7.3,Stan Knows Best
+1,4,7.3,Francine's Flashback
+1,5,7.6,Roger Codger
+1,6,7.5,Homeland Insecurity
+1,7,7.3,"Deacon Stan, Jesus Man"
+1,8,7.9,Bullocks to Stan
+1,9,7.8,A Smith in the Hand
+1,10,7.4,All About Steve
+1,11,7.2,Con Heir
+1,12,7.7,Stan of Arabia: Part 1
+1,13,7.7,Stan of Arabia: Part 2
+1,14,7.5,Stannie Get Your Gun
+1,15,7.4,Star Trek
+1,16,7.3,Not Particularly Desperate Housewife
+1,17,7.6,Rough Trade
+1,18,7.5,Finances with Wolves
+1,19,7.2,It's Good to Be the Queen
+1,20,7.6,Roger 'n' Me
+1,21,7.2,Helping Handis
+1,22,7.8,With Friends Like Steve's
+1,23,7.7,Tears of a Clooney
+2,1,7.7,Camp Refoogee
+2,2,7.9,The American Dad After School Special
+2,3,7.6,Failure is Not a Factory-Installed Option
+2,4,7.7,Lincoln Lover
+2,5,7.7,Dungeons and Wagons
+2,6,7.3,"Iced, Iced Babies"
+2,7,7.1,Of Ice and Men
+2,8,7.2,Irregarding Steve
+2,9,8.0,The Best Christmas Story Never Told
+2,10,7.5,Bush Comes to Dinner
+2,11,7.3,American Dream Factory
+2,12,7.3,A.T. The Abusive Terrestrial
+2,13,7.8,Black Mystery Month
+2,14,7.6,An Apocalypse to Remember
+2,15,7.6,Four Little Words
+2,16,7.6,When a Stan Loves a Woman
+2,17,7.5,I Can't Stan You
+2,18,7.3,The Magnificent Steven
+2,19,7.9,Joint Custody
+3,1,8.2,The Vacation Goo
+3,2,7.8,Meter Made
+3,3,8.1,Dope and Faith
+3,4,7.3,Big Trouble in Little Langley
+3,5,7.5,Haylias
+3,6,7.4,The 42-Year-Old Virgin
+3,7,7.4,Surro-Gate
+3,8,7.9,The Most Adequate Christmas Ever
+3,9,7.6,Frannie 911
+3,10,8.5,Tearjerker
+3,11,7.3,Oedipal Panties
+3,12,7.7,Widowmaker
+3,13,7.4,Red October Sky
+3,14,7.8,Office Spaceman
+3,15,7.5,Stanny Slickers II: The Legend of Ollie's Gold
+3,16,7.9,Spring Break-up
+4,1,7.8,1600 Candles
+4,2,7.8,The One That Got Away
+4,3,7.0,One Little Word
+4,4,7.4,Choosy Wives Choose Smith
+4,5,7.7,Escape from Pearl Bailey
+4,6,7.4,Pulling Double Booty
+4,7,7.7,Phantom of the Telethon
+4,8,7.1,Chimdale
+4,9,7.5,Stan Time
+4,10,7.2,Family Affair
+4,11,7.2,Live and Let Fry
+4,12,7.5,Roy Rogers McFreely
+4,13,7.1,Jack's Back
+4,14,7.5,Bar Mitzvah Hustle
+4,15,7.6,Wife Insurance
+4,16,7.3,Delorean Story-An
+4,17,6.9,Every Which Way But Lose
+4,18,7.4,Weiner of Our Discontent
+4,19,7.1,Daddy Queerest
+4,20,7.4,Stan's Night Out
+5,1,8.1,In Country... Club
+5,2,7.5,Moon Over Isla Island
+5,3,7.2,Home Adrone
+5,4,7.3,"Brains, Brains and Automobiles"
+5,5,7.3,Man in the Moonbounce
+5,6,7.2,Shallow Vows
+5,7,7.4,My Morning Straitjacket
+5,8,7.3,G-String Circus
+5,9,8.9,Rapture's Delight
+5,10,7.5,Don't Look a Smith Horse in the Mouth
+5,11,8.0,A Jones for a Smith
+5,12,7.5,May the Best Stan Win
+5,13,7.5,Return of the Bling
+5,14,7.6,Cops & Roger
+5,15,7.7,Merlot Down Dirty Shame
+5,16,7.6,Bully for Steve
+5,17,7.1,An Incident at Owl Creek
+5,18,8.2,Great Space Roaster
+6,1,7.7,100 A.D.
+6,2,7.8,Son of Stan
+6,3,7.7,Best Little Horror House in Langley Falls
+6,4,7.4,Stan's Food Restaurant
+6,5,7.2,White Rice
+6,6,7.6,There Will Be Bad Blood
+6,7,7.7,The People vs. Martin Sugar
+6,8,8.6,For Whom the Sleigh Bell Tolls
+6,9,7.5,Fart-Break Hotel
+6,10,7.7,Stanny Boy and Frantastic
+6,11,7.3,A Piñata Named Desire
+6,12,7.4,You Debt Your Life
+6,13,7.7,I Am the Walrus
+6,14,7.5,School Lies
+6,15,7.2,License to Till
+6,16,7.4,Jenny Fromdabloc
+6,17,7.3,Home Wrecker
+6,18,7.4,Flirting with Disaster
+6,19,6.9,Gorillas in the Mist
+7,1,7.3,Hot Water
+7,2,8.1,Hurricane!
+7,3,7.1,A Ward Show
+7,4,7.0,The Worst Stan
+7,5,7.9,Virtual In-Stanity
+7,6,7.3,The Scarlet Getter
+7,7,7.9,Season's Beatings
+7,8,7.3,The Unbrave One
+7,9,7.4,Stanny Tendergrass
+7,10,7.4,Wheels & the Legman and the Case of Grandpa's Key
+7,11,7.7,Old Stan in the Mountain
+7,12,7.1,The Wrestler
+7,13,7.6,Dr. Klaustus
+7,14,6.9,Stan's Best Friend
+7,15,7.7,"Less Money, Mo' Problems"
+7,16,7.6,The Kidney Stays in the Picture
+7,17,7.8,Ricky Spanish
+7,18,7.3,Toy Whorey
+8,1,7.5,"Love, AD Style"
+8,2,7.8,Killer Vacation
+8,3,7.7,Can I Be Frank with You?
+8,4,7.7,American Stepdad
+8,5,7.2,Why Can't We Be Friends?
+8,6,7.6,Adventures in Hayleysitting
+8,7,6.6,National Treasure 4: Baby Franny: She's Doing Well - The Hole Story
+8,8,7.1,Finger Lenting Good
+8,9,7.4,The Adventures of Twill Ongenbone and His Boy Jabari
+8,10,6.7,Blood Crieth Unto Heaven
+8,11,7.3,Max Jets
+8,12,7.4,"Naked to the Limit, One More Time"
+8,13,7.3,For Black Eyes Only
+8,14,7.5,Spelling Bee My Baby
+8,15,7.2,The Missing Kink
+8,16,6.9,The Boring Identity
+8,17,7.2,The Full Cognitive Redaction of Avery Bullock by the Coward Stan Smith
+8,18,8.4,Lost in Space
+8,19,7.5,Da Flippity Flop
+9,1,7.7,Steve and Snot's Test-Tubular Adventure
+9,2,7.6,Poltergasm
+9,3,7.5,"Buck, Wild"
+9,4,7.4,Crotchwalkers
+9,5,6.8,Kung Pao Turkey
+9,6,7.3,Independent Movie
+9,7,8.1,Faking Bad
+9,8,7.8,Minstrel Krampus
+9,9,7.9,Vision: Impossible
+9,10,7.9,Familyland
+9,11,7.3,Cock of the Sleepwalk
+9,12,7.1,Introducing the Naughty Stewardesses
+9,13,7.3,I Ain't No Holodeck Boy
+9,14,7.3,Stan Goes on the Pill
+9,15,7.1,"Honey, I'm Homeland"
+9,16,7.4,She Swill Survive
+9,17,7.0,Rubberneckers
+9,18,7.4,Permanent Record Wrecker
+9,19,7.3,News Glances with Genevieve Vavance
+9,20,7.3,The Longest Distance Relationship
+9,21,7.2,Roger Passes the Bar
+9,22,7.5,A Boy Named Michael
+9,23,7.1,"Blagsnarst, a Love Story"
+10,1,7.3,Blonde Ambition
+10,2,7.2,CIAPOW
+10,3,6.9,Scents and Sensei-bility
+10,4,7.2,Big Stan on Campus
+10,5,7.5,Now and Gwen
+10,6,7.4,Dreaming of a White Porsche Christmas
+10,7,7.4,LGBSteve
+10,8,7.4,Morning Mimosa
+10,9,7.3,My Affair Lady
+10,10,7.1,A Star Is Reborn
+10,11,7.2,Manhattan Magical Murder Mystery Tour
+10,12,7.4,The Shrink
+10,13,7.7,"Holy Shit, Jeff's Back"
+10,14,4.0,American Fung
+10,15,7.0,Seizures Suit Stanny
+11,1,7.1,Roots
+11,2,7.4,The Life Aquatic with Steve Smith
+11,3,7.3,"Hayley Smith, Seal Team Six"
+11,4,7.1,N.S.A. (No Snoops Allowed)
+11,5,7.0,Stan Smith Is Keanu Reeves as Stanny Utah in Point Break
+11,6,6.9,Kiss Kiss Cam Cam
+11,7,7.2,The Devil Wears a Lapel Pin
+11,8,7.2,Stan-Dan Deliver
+11,9,7.3,Anchorfran
+11,10,8.7,The Two Hundred
+11,11,8.1,The Unincludeds
+11,12,7.2,The Dentist's Wife
+11,13,7.0,Widow's Pique
+11,14,7.2,The Nova Centauris-burgh Board of Tourism Presents: American Dad
+11,15,7.3,Daesong Heavy Industries
+11,16,7.2,Daesong Heavy Industries II: Return to Innocence
+11,17,7.4,Criss-Cross Applesauce: The Ballad of Billy Jesusworth
+11,18,7.3,Mine Struggle
+11,19,7.0,Garfield and Friends
+11,20,7.5,Gifted Me Liberty
+11,21,7.5,Next of Pin
+11,22,7.0,Standard Deviation
+12,1,7.6,Father's Daze
+12,2,6.8,Fight and Flight
+12,3,6.9,The Enlightenment of Ragi-Baba
+12,4,6.8,Portrait of Francine's Genitals
+12,5,7.4,Bahama Mama
+12,6,7.1,Roger's Baby
+12,7,7.3,"Ninety North, Zero West"
+12,8,6.9,A Whole Slotta Love
+12,9,7.1,The Witches of Langley
+12,10,6.9,A Nice Night for a Drive
+12,11,7.1,Casino Normale
+12,12,6.7,Bazooka Steve
+12,13,6.5,Camp Campawanda
+12,14,7.2,Julia Rogerts
+12,15,7.4,The Life and Times of Stan Smith
+12,16,6.8,The Bitchin' Race
+12,17,6.4,Family Plan
+12,18,6.9,The Long Bomb
+12,19,6.6,Kloger
+12,20,6.6,Garbage Stan
+12,21,7.5,The Talented Mr. Dingleberry
+12,22,7.2,West to Mexico
+13,1,6.4,"Santa, Schmanta"
+13,2,7.3,Paranoid Frandroid
+13,3,6.8,The Census of the Lambs
+13,4,6.9,Shell Game
+13,5,6.7,The Mural of the Story
+13,6,6.8,(You Gotta) Strike for Your Right
+13,7,7.0,Klaustastrophe.tv
+13,8,7.7,Death by Dinner Party
+13,9,6.8,The Never-Ending Stories
+13,10,6.7,Railroaded
+13,11,7.4,My Purity Ball and Chain
+13,12,7.8,OreTron Trail
+13,13,6.9,Mean Francine
+13,14,6.8,One-Woman Swole
+13,15,6.3,Flavortown
+13,16,8.1,Persona Assistant
+13,17,6.9,The Legend of Old Ulysses
+13,18,6.8,Twinanigans
+13,19,7.3,Top of the Steve
+13,20,7.2,Funnyish Games
+13,21,6.8,Fleabiscuit
+13,22,7.0,The Future Is Borax
+14,1,7.1,Fantasy Baseball
+14,2,6.7,I Am the Jeans: The Gina Lavetti Story
+14,3,7.6,Stan & Francine & Connie & Ted
+14,4,8.7,Rabbit Ears
+14,5,7.3,Jeff and The Dank Ass Weed Factory
+14,6,6.6,Lost Boys
+14,7,7.3,Shark?!
+14,8,7.1,The Long March
+14,9,6.8,The Hall Monitor and the Lunch Lady
+14,10,6.8,Wild Women Do
+14,11,6.4,An Irish Goodbye
+14,12,7.1,Stompe le Monde
+14,13,6.8,Mom Sauce
+14,14,6.6,Hamerican Dad!
+14,15,6.6,Demolition Daddy
+14,16,7.1,Pride Before the Fail
+14,17,7.8,Enter Stanman
+14,18,7.4,No Weddings and a Funeral
+14,19,7.4,Eight Fires
+14,20,7.3,The Hand that Rocks the Rogu
+15,1,7.0,100 Years a Solid Fool
+15,2,7.3,Downtown
+15,3,6.2,Cheek to Cheek: A Stripper's Story
+15,4,6.7,A Starboy is Born
+15,5,6.5,Tapped Out
+15,6,6.6,Brave Noob World
+15,7,6.9,Into the Woods
+15,8,7.0,"One Fish, Two Fish"
+15,9,7.5,Exquisite Corpses
+15,10,6.6,"Trophy Wife, Trophy Life"
+15,11,7.4,Game Night
+15,12,6.6,American Data?
+15,13,7.0,Salute Your Sllort
+15,14,7.1,Ghost Dad
+15,15,7.3,Men II Boyz
+15,16,7.5,"First, Do No Farm"
+15,17,7.0,Roger Needs Dick
+15,18,7.2,The Old Country
+15,19,6.6,Businessly Brunette
+15,20,6.3,The Chilly Thrillies
+15,21,6.5,"Dammmm, Stan!"
+15,22,6.7,The Last Ride of the Dodge City Rambler
+15,23,8.1,300
+15,24,7.5,Yule. Tide. Repeat.
