@@ -26,6 +26,7 @@ def main():
 
     graphs = Graphs()
     graphs.scatterplot(data1, data2, string1, string2)
+    graphs.boxplot(data1, data2, string1, string2)
     graphs.multi(data1,data2,string1,string2)
 
 if __name__ == '__main__':
