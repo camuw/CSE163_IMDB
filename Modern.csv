@@ -1,0 +1,251 @@
+season,episode_num,imdb_rating,title
+1,1,8.2,Pilot
+1,2,8.2,The Bicycle Thief
+1,3,8.0,Come Fly with Me
+1,4,8.2,The Incident
+1,5,8.3,Coal Digger
+1,6,7.8,Run for Your Wife
+1,7,8.0,En Garde
+1,8,8.0,Great Expectations
+1,9,8.7,Fizbo
+1,10,8.1,Undeck the Halls
+1,11,8.0,Up All Night
+1,12,7.8,Not in My House
+1,13,8.1,Fifteen Percent
+1,14,8.1,Moon Landing
+1,15,8.7,My Funky Valentine
+1,16,8.0,Fears
+1,17,7.9,Truth Be Told
+1,18,8.1,Starry Night
+1,19,7.9,Game Changer
+1,20,7.7,Benched
+1,21,7.8,Travels with Scout
+1,22,8.2,Airport 2010
+1,23,8.5,Hawaii
+1,24,8.6,Family Portrait
+2,1,8.0,The Old Wagon
+2,2,8.1,The Kiss
+2,3,7.8,Earthquake
+2,4,8.0,Strangers on a Treadmill
+2,5,8.2,Unplugged
+2,6,8.5,Halloween
+2,7,7.7,Chirp
+2,8,8.4,Manny Get Your Gun
+2,9,7.6,Mother Tucker
+2,10,7.5,Dance Dance Revelation
+2,11,8.2,Slow Down Your Neighbors
+2,12,7.8,"Our Children, Ourselves"
+2,13,9.0,Caught in the Act
+2,14,8.0,Bixby's Back
+2,15,7.5,Princess Party
+2,16,8.0,Regrets Only
+2,17,7.8,Two Monkeys and a Panda
+2,18,8.3,Boys' Night
+2,19,8.2,The Musical Man
+2,20,8.0,Someone to Watch Over Lily
+2,21,8.1,Mother's Day
+2,22,8.2,Good Cop Bad Dog
+2,23,8.2,See You Next Fall
+2,24,8.0,The One That Got Away
+3,1,7.9,Dude Ranch
+3,2,8.1,When Good Kids Go Bad
+3,3,8.1,Phil on Wire
+3,4,7.9,Door to Door
+3,5,7.8,Hit and Run
+3,6,7.7,Go Bullfrogs!
+3,7,8.2,Treehouse
+3,8,7.8,After the Fire
+3,9,7.8,Punkin Chunkin
+3,10,8.1,Express Christmas
+3,11,7.8,Lifetime Supply
+3,12,7.7,Egg Drop
+3,13,8.5,Little Bo Bleep
+3,14,8.0,Me? Jealous?
+3,15,8.1,Aunt Mommy
+3,16,7.8,Virgin Territory
+3,17,8.0,Leap Day
+3,18,7.5,Send Out the Clowns
+3,19,7.8,Election Day
+3,20,7.6,The Last Walt
+3,21,7.7,"Planes, Trains and Cars"
+3,22,8.2,Disneyland
+3,23,8.0,Tableau Vivant
+3,24,8.6,Baby on Board
+4,1,8.3,Bringing Up Baby
+4,2,8.6,Schooled
+4,3,8.0,Snip
+4,4,7.6,The Butler's Escape
+4,5,7.9,Open House of Horrors
+4,6,7.8,Yard Sale
+4,7,8.5,Arrested
+4,8,8.2,Mistery Date
+4,9,7.7,When a Tree Falls
+4,10,7.8,Diamond in the Rough
+4,11,8.1,New Year's Eve
+4,12,8.4,Party Crasher
+4,13,8.9,Fulgencio
+4,14,7.6,A Slight at the Opera
+4,15,7.7,Heart Broken
+4,16,7.4,Bad Hair Day
+4,17,8.0,Best Men
+4,18,7.7,The Wow Factor
+4,19,7.9,The Future Dunphys
+4,20,7.7,Flip Flop
+4,21,7.6,Career Day
+4,22,7.8,My Hero
+4,23,7.8,Games People Play
+4,24,8.2,Goodnight Gracie
+5,1,8.1,"Suddenly, Last Summer"
+5,2,7.8,First Days
+5,3,7.5,Larry's Wife
+5,4,7.8,Farm Strong
+5,5,8.1,The Late Show
+5,6,7.6,The Help
+5,7,7.9,A Fair to Remember
+5,8,7.7,ClosetCon '13
+5,9,7.5,The Big Game
+5,10,7.8,The Old Man & the Tree
+5,11,7.5,And One to Grow On
+5,12,8.5,Under Pressure
+5,13,8.1,Three Dinners
+5,14,8.0,iSpy
+5,15,7.7,The Feud
+5,16,7.7,Spring-A-Ding-Fling
+5,17,7.9,Other People's Children
+5,18,9.2,Vegas
+5,19,7.8,A Hard Jay's Night
+5,20,8.0,Australia
+5,21,7.6,Sleeper
+5,22,8.3,Message Received
+5,23,8.2,"The Wedding, Part 1"
+5,24,8.6,"The Wedding, Part 2"
+6,1,8.0,The Long Honeymoon
+6,2,8.0,Don't Push
+6,3,7.8,The Cold
+6,4,7.9,Marco Polo
+6,5,7.9,Won't You Be Our Neighbor
+6,6,7.6,Halloween 3: AwesomeLand
+6,7,8.1,"Queer Eyes, Full Hearts"
+6,8,8.4,Three Turkeys
+6,9,7.5,Strangers in the Night
+6,10,8.1,Haley's 21st Birthday
+6,11,8.3,The Day We Almost Died
+6,12,7.7,The Big Guns
+6,13,7.5,Rash Decisions
+6,14,7.8,Valentine's Day 4: Twisted Sister
+6,15,7.9,Fight or Flight
+6,16,9.5,Connection Lost
+6,17,7.8,Closet? You'll Love It!
+6,18,7.4,Spring Break
+6,19,7.6,"Grill, Interrupted"
+6,20,8.1,Knock 'Em Down
+6,21,7.8,Integrity
+6,22,8.1,Patriot Games
+6,23,8.3,Crying Out Loud
+6,24,8.8,American Skyper
+7,1,7.8,Summer Lovin'
+7,2,7.8,The Day Alex Left for College
+7,3,7.8,The Closet Case
+7,4,7.7,She Crazy
+7,5,7.5,The Verdict
+7,6,7.5,The More You Ignore Me
+7,7,8.6,"Phil's Sexy, Sexy House"
+7,8,7.9,Clean Out Your Junk Drawer
+7,9,8.3,White Christmas
+7,10,7.6,Playdates
+7,11,8.0,Spread Your Wings
+7,12,7.5,Clean for a Day
+7,13,7.6,Thunk in the Trunk
+7,14,8.1,The Storm
+7,15,7.6,I Don't Know How She Does It
+7,16,8.1,The Cover-Up
+7,17,7.7,Express Yourself
+7,18,8.7,The Party
+7,19,7.7,Man Shouldn't Lie
+7,20,7.5,Promposal
+7,21,8.0,Crazy Train
+7,22,8.2,Double Click
+8,1,8.1,A Tale of Three Cities
+8,2,7.6,A Stereotypical Day
+8,3,7.4,Blindsided
+8,4,7.6,Weathering Heights
+8,5,7.7,Halloween 4: The Revenge of Rod Skyhook
+8,6,7.2,Grab It
+8,7,7.3,Thanksgiving Jamboree
+8,8,8.4,The Alliance
+8,9,7.3,Snow Ball
+8,10,7.4,Ringmaster Keifth
+8,11,7.2,Sarge & Pea
+8,12,7.8,Do You Believe in Magic
+8,13,7.3,Do It Yourself
+8,14,7.2,Heavy Is the Head
+8,15,6.8,Finding Fizbo
+8,16,7.2,Basketball
+8,17,7.6,Pig Moon Rising
+8,18,7.6,Five Minutes
+8,19,7.4,Frank's Wedding
+8,20,5.9,All Things Being Equal
+8,21,7.6,Alone Time
+8,22,7.8,The Graduates
+9,1,7.9,Lake Life
+9,2,7.3,The Long Goodbye
+9,3,7.4,Catch of the Day
+9,4,7.1,"Sex, Lies & Kickball"
+9,5,7.3,"It's the Great Pumpkin, Phil Dunphy"
+9,6,7.2,Ten Years Later
+9,7,7.6,Winner Winner Turkey Dinner
+9,8,7.3,Brushes with Celebrity
+9,9,7.2,Tough Love
+9,10,7.1,No Small Feet
+9,11,7.1,"He Said, She Shed"
+9,12,7.4,Dear Beloved Family
+9,13,7.3,In Your Head
+9,14,7.5,Written in the Stars
+9,15,6.8,Spanks for the Memories
+9,16,7.4,Wine Weekend
+9,17,7.2,Royal Visit
+9,18,8.1,Daddy Issues
+9,19,6.9,CHiPs and Salsa
+9,20,7.4,Mother!
+9,21,7.5,The Escape
+9,22,6.6,Clash of Swords
+10,1,6.7,I Love a Parade
+10,2,8.0,Kiss and Tell
+10,3,7.2,A Sketchy Area
+10,4,7.3,Torn Between Two Lovers
+10,5,7.3,Good Grief
+10,6,7.5,On the Same Paige
+10,7,7.4,Did the Chicken Cross the Road?
+10,8,7.2,Kids These Days
+10,9,7.5,Putting Down Roots
+10,10,7.5,Stuck in a Moment
+10,11,7.0,A Moving Day
+10,12,6.7,Blasts from the Past
+10,13,6.8,Whanex?
+10,14,7.3,We Need to Talk About Lily
+10,15,7.2,SuperShowerBabyBowl
+10,16,6.9,Red Alert
+10,17,7.1,The Wild
+10,18,7.2,Stand by Your Man
+10,19,7.5,Yes-Woman
+10,20,8.0,Can't Elope
+10,21,7.2,Commencement
+10,22,8.7,A Year of Birthdays
+11,1,6.5,New Kids on the Block
+11,2,7.3,Snapped
+11,3,7.2,Perfect Pairs
+11,4,7.1,Pool Party
+11,5,7.7,The Last Halloween
+11,6,6.8,A Game of Chicken
+11,7,7.3,The Last Thanksgiving
+11,8,7.0,Tree's a Crowd
+11,9,7.6,The Last Christmas
+11,10,7.9,The Prescott
+11,11,7.6,Legacy
+11,12,6.8,Dead on a Rival
+11,13,7.6,Paris
+11,14,7.6,Spuds
+11,15,7.2,Baby Steps
+11,16,7.2,I'm Going to Miss This
+11,17,8.3,Finale Part 1
+11,18,8.5,Finale Part 2
