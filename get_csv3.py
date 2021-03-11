@@ -77,20 +77,21 @@ def get_ttcode(string, index):
     '''
     ia = imdb.IMDb()
     search = ia.search_movie(string)
-    id = search[int(index)].movieID
+    id = search[index].movieID
     return id
 
 
 
 def main():
-    string = "family Guy"
-    tt_list = get_ttcode_list(string)
-    print(tt_list)
-    print("What index looks like the show you are looking to graph?")
-    index = input()
-    tt_string = get_ttcode(string, index)
+    #string = "family Guy"
+    #tt_list = get_ttcode_list(string)
+    #print(tt_list)
+    #print("What index looks like the show you are looking to graph?")
+    tt_string = get_ttcode('family guy', 1)
+    print(tt_string)
     season_length = get_season_length(tt_string)
-    #get_csv(tt_string, season_length, string)
+    print(season_length)
+    get_csv(tt_string, season_length, string)
 
 if __name__ == '__main__':
     main()
