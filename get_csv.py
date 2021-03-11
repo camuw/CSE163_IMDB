@@ -13,6 +13,13 @@ import pandas as pd
 
 
 class GetCSV:
+    '''
+    this class is responsable for getting all of the info for the file names.
+    it takes in a string and then get the imdb TT code based on the index. From
+    here it finds the season length through imdbpy. Then using these it loops
+    through the html for the respective seaons. It exports them to csv using them
+    first word in the search term.
+    '''
     def get_csv(self, tt_code, season_length, string):
         '''
         this method takes in the season-length and the ttcode and requests the
