@@ -1,3 +1,8 @@
+'''
+this program is the main method for out program. It takes in the nessisary
+inputs and drives the program. It deafults to doing family guy and american Dad
+unless otherwise directed.
+'''
 from get_csv import GetCSV
 from graphs import Graphs
 
