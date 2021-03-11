@@ -64,7 +64,7 @@ def get_ttcode_list(string):
     for i in search:
         print(i)
         list_id.append(i)
-    return list id
+    return list_id
 
 
 def get_ttcode(string, index):

@@ -1,37 +1,40 @@
 from bs4 import BeautifulSoup
 from requests import get
-from imdb import IMDb
-import imdb
 import pandas as pd
+import imdb
+
 
 class GetCSV:
 
     def get_csv(self, tt_code, season_length, string):
         string = string.split()[0]
-        url = 'https://www.imdb.com/title/tt{code}/episodes?season=1'.format(code= tt_code)
+        url = ('https://www.imdb.com/title/'
+               + 'tt{code}/episodes?season=1').format(code=tt_code)
         data = []
         for sn in range(1, int(season_length) + 1):
-            url = get('https://www.imdb.com/title/tt{code}/episodes?season='.format(code= tt_code) + str(sn))
+            url = get(('https://www.imdb.com/title/tt{code}/'
+                       + 'episodes?season=').format(code=tt_code) + str(sn))
             print(url)
             website = BeautifulSoup(url.text, 'html.parser')
-            episode_blocks = website.find_all('div', class_= 'info')
+            episode_blocks = website.find_all('div', class_='info')
             for episodes in episode_blocks:
                 season = sn
                 episode_num = episodes.meta['content']
                 try:
-                    imdb_rating = episodes.find('span', class_='ipl-rating-star__rating').text
+                    imdb_rating = episodes.find('span', class_='ipl-rating'
+                                                + '-star__rating').text
                 except:
                     break
                 else:
                     title = episodes.a['title']
                     episode_info = [season, episode_num, imdb_rating, title]
                     data.append(episode_info)
-        #print(data)
+        # print(data)
         name = 'tv_show_data_' + string
-        name = pd.DataFrame(data, columns = ['season', 'episode_num', 'imdb_rating', 'title'])
-        name.to_csv('{}.csv'.format(string),index=False)
+        name = pd.DataFrame(data, columns=['season', 'episode_num',
+                                           'imdb_rating', 'title'])
+        name.to_csv('{}.csv'.format(string), index=False)
         return name
-
 
     def get_season_length(self, tt_string):
         ia = imdb.IMDb()

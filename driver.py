@@ -1,12 +1,8 @@
-from bs4 import BeautifulSoup
-from requests import get
-from imdb import IMDb
-import imdb
-import pandas as pd
 from get_csv import GetCSV
 from graphs import Graphs
 
 user_input = False
+
 
 def main():
     reader = GetCSV()
@@ -27,7 +23,8 @@ def main():
     graphs = Graphs()
     graphs.scatterplot(data1, data2, string1, string2)
     graphs.boxplot(data1, data2, string1, string2)
-    graphs.multi(data1,data2,string1,string2)
+    graphs.multi(data1, data2, string1, string2)
+
 
 if __name__ == '__main__':
     main()
