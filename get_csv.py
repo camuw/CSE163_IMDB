@@ -98,7 +98,7 @@ class GetCSV:
         '''
         ia = imdb.IMDb()
         search = ia.search_movie(string)
-        id = search[index].movieID
+        id = search[int(index)].movieID
         return id
 
 

@@ -22,8 +22,16 @@ def main():
     if input("Do you want to input TV shows? Y or N : ") == "Y":
         string1 = input("Enter 1st TV show: ")
         string2 = input("Enter 2nd TV show: ")
-        index1 = 0
-        index2 = 0
+        list1 = reader.get_ttcode_list(string1)
+        print(list1)
+        print('Select the show that is most representive. Index starts at 0')
+        print('Index goes up by one after every comma.')
+        index1 = input("Select the index of best fit: ")
+        list2 = reader.get_ttcode_list(string2)
+        print(list2)
+        print('Select the show that is most representive. Index starts at 0')
+        print('Index goes up by one after every comma.')
+        index2 = input("Select the index: ")
     else:
         string1 = "Family Guy"
         string2 = "American Dad"
