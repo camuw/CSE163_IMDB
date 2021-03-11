@@ -1,3 +1,11 @@
+'''
+This file takes in the the search terms and then finds the correct the url for
+the search term using get tt code method. With the tt code it then the season
+length via the imdbPY database. From here the scraper does it work by requesting
+the URL for each of the seasons. It then parses through the html and finds the
+nessisary vaules. From here they are exported to a csv with title of the first
+string within the seach term.
+'''
 from bs4 import BeautifulSoup
 from requests import get
 import imdb
@@ -17,7 +25,7 @@ class GetCSV:
         the seasons by using adding the season string at the end of the url.
         Finally the list of lists collected in the web scraper is put into a
         panda file and then exported to a csv. With the word of the string
-        being the name ofthe file.
+        being the name of the file.
         '''
         string = string.split()[0]
         url = ('https://www.imdb.com/title/tt{code}/episodes'
