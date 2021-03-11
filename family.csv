@@ -1,87 +1,363 @@
 season,episode_num,imdb_rating,title
-1,1,8.5,Pilot
-1,2,8.5,46 Long
-1,3,8.7,"Denial, Anger, Acceptance"
-1,4,8.7,Meadowlands
-1,5,9.0,College
-1,6,8.6,Pax Soprana
-1,7,8.5,Down Neck
-1,8,8.7,The Legend of Tennessee Moltisanti
-1,9,8.6,Boca
-1,10,8.1,A Hit Is a Hit
-1,11,8.8,Nobody Knows Anything
-1,12,9.1,Isabella
-1,13,9.2,I Dream of Jeannie Cusamano
-2,1,8.3,Guy Walks Into a Psychiatrist's Office
-2,2,8.2,Do Not Resuscitate
-2,3,8.5,Toodle-Fucking-Oo
-2,4,8.6,Commendatori
-2,5,8.6,Big Girls Don't Cry
-2,6,8.7,The Happy Wanderer
-2,7,8.7,D-Girl
-2,8,8.9,Full Leather Jacket
-2,9,8.8,From Where to Eternity
-2,10,8.5,Bust-Out
-2,11,8.3,House Arrest
-2,12,9.3,The Knight in White Satin Armor
-2,13,9.4,Funhouse
-3,1,8.7,Mr. Ruggerio's Neighborhood
-3,2,8.7,"Proshai, Livushka"
-3,3,8.5,Fortunate Son
-3,4,9.1,Employee of the Month
-3,5,8.7,Another Toothpick
-3,6,8.7,University
-3,7,8.5,Second Opinion
-3,8,8.4,He Is Risen
-3,9,8.2,The Telltale Moozadell
-3,10,8.5,To Save Us All from Satan's Power
-3,11,9.7,Pine Barrens
-3,12,9.2,Amour Fou
-3,13,9.1,Army of One
-4,1,8.3,For All Debts Public and Private
-4,2,8.3,No Show
-4,3,7.9,Christopher
-4,4,8.5,The Weight
-4,5,8.2,Pie-o-My
-4,6,8.4,Everybody Hurts
-4,7,8.2,Watching Too Much Television
-4,8,8.2,Mergers and Acquisitions
-4,9,9.2,Whoever Did This
-4,10,8.8,"The Strong, Silent Type"
-4,11,8.1,Calling All Cars
-4,12,8.3,Eloise
-4,13,9.2,Whitecaps
-5,1,8.7,Two Tonys
-5,2,8.5,Rat Pack
-5,3,8.7,Where's Johnny?
-5,4,8.6,All Happy Families
-5,5,9.3,Irregular Around the Margins
-5,6,8.3,Sentimental Education
-5,7,8.1,In Camelot
-5,8,8.8,Marco Polo
-5,9,8.8,Unidentified Black Males
-5,10,8.7,Cold Cuts
-5,11,8.6,The Test Dream
-5,12,9.6,Long Term Parking
-5,13,9.3,All Due Respect
-6,1,9.2,Members Only
-6,2,8.7,Join the Club
-6,3,8.8,Mayham
-6,4,8.5,The Fleshy Part of the Thigh
-6,5,8.8,Mr. & Mrs. John Sacrimoni Request
-6,6,8.6,Live Free or Die
-6,7,8.3,Luxury Lounge
-6,8,8.4,Johnny Cakes
-6,9,8.4,The Ride
-6,10,8.2,Moe n' Joe
-6,11,8.7,Cold Stones
-6,12,8.3,Kaisha
-6,13,9.1,Soprano Home Movies
-6,14,8.8,Stage 5
-6,15,8.6,Remember When
-6,16,8.1,Chasing It
-6,17,8.8,Walk Like a Man
-6,18,9.1,Kennedy and Heidi
-6,19,9.3,The Second Coming
-6,20,9.6,The Blue Comet
-6,21,9.3,Made in America
+1,1,7.8,Death Has a Shadow
+1,2,7.6,I Never Met the Dead Man
+1,3,7.7,Chitty Chitty Death Bang
+1,4,7.5,Mind Over Murder
+1,5,7.5,A Hero Sits Next Door
+1,6,7.3,The Son Also Draws
+1,7,7.5,Brian: Portrait of a Dog
+2,1,7.6,"Peter, Peter, Caviar Eater"
+2,2,7.4,Holy Crap
+2,3,8.2,Da Boom
+2,4,7.5,Brian in Love
+2,5,7.7,Love Thy Trophy
+2,6,8.3,Death Is a Bitch
+2,7,7.4,The King Is Dead
+2,8,8.1,"I Am Peter, Hear Me Roar"
+2,9,7.4,If I'm Dyin' I'm Lyin'
+2,10,7.5,Running Mates
+2,11,7.2,"A Picture Is Worth 1,000 Bucks"
+2,12,7.6,Fifteen Minutes of Shame
+2,13,8.3,Road to Rhode Island
+2,14,7.9,Let's Go to the Hop
+2,15,7.5,Dammit Janet
+2,16,6.9,There's Something About Paulie
+2,17,7.8,He's Too Sexy for His Fat
+2,18,8.2,E. Peterbus Unum
+2,19,7.5,The Story on Page One
+2,20,8.1,Wasted Talent
+2,21,7.2,"Fore, Father"
+3,1,8.1,The Thin White Line
+3,2,7.7,Brian Does Hollywood
+3,3,7.6,Mr. Griffin Goes to Washington
+3,4,7.6,"One If by Clam, Two If by Sea"
+3,5,7.6,And the Wiener Is...
+3,6,8.0,Death Lives
+3,7,7.3,Lethal Weapons
+3,8,6.7,The Kiss Seen Round the World
+3,9,7.5,Mr. Saturday Knight
+3,10,7.1,A Fish Out of Water
+3,11,8.1,Emission Impossible
+3,12,8.2,To Love and Die in Dixie
+3,13,7.4,Screwed the Pooch
+3,14,7.6,"Peter Griffin: Husband, Father... Brother?"
+3,15,7.6,"Ready, Willing and Disabled"
+3,16,7.7,A Very Special Family Guy Freakin' Christmas
+3,17,7.5,Brian Wallows and Peter's Swallows
+3,18,7.5,From Method to Madness
+3,19,7.6,"Stuck Together, Torn Apart"
+3,20,7.9,Road to Europe
+3,21,7.5,Family Guy Viewer Mail #1
+3,22,7.4,When You Wish Upon a Weinstein
+4,1,7.8,North by North Quahog
+4,2,7.6,Fast Times at Buddy Cianci Jr. High
+4,3,7.6,Blind Ambition
+4,4,7.5,Don't Make Me Over
+4,5,7.6,The Cleveland-Loretta Quagmire
+4,6,8.3,Petarded
+4,7,7.4,Brian the Bachelor
+4,8,7.6,8 Simple Rules for Buying My Teenage Daughter
+4,9,7.6,Breaking Out Is Hard to Do
+4,10,7.3,Model Misbehavior
+4,11,7.6,Peter's Got Woods
+4,12,7.7,The Perfect Castaway
+4,13,7.3,Jungle Love
+4,14,8.6,PTV
+4,15,7.8,Brian Goes Back to College
+4,16,7.7,The Courtship of Stewie's Father
+4,17,8.0,Fat Guy Strangler
+4,18,7.3,"The Father, the Son and the Holy Fonz"
+4,19,7.3,Brian Sings and Swings
+4,20,7.8,Patriot Games
+4,21,7.5,"I Take Thee, Quagmire"
+4,22,7.6,Sibling Rivalry
+4,23,7.5,Deep Throats
+4,24,7.6,Peterotica
+4,25,7.2,You May Now Kiss the... Uh... Guy Who Receives
+4,26,7.9,Petergeist
+4,27,7.7,The Griffin Family History
+4,28,7.7,Stewie B. Goode
+4,29,7.6,Bango Was His Name Oh!
+4,30,7.8,Stu & Stewie's Excellent Adventure
+5,1,8.2,Stewie Loves Lois
+5,2,7.4,Mother Tucker
+5,3,7.6,Hell Comes to Quahog
+5,4,7.7,Saving Private Brian
+5,5,7.7,Whistle While Your Wife Works
+5,6,7.4,Prick Up Your Ears
+5,7,7.5,Chick Cancer
+5,8,7.9,Barely Legal
+5,9,7.9,Road to Rupert
+5,10,7.7,Peter's Two Dads
+5,11,7.7,The Tan Aquatic with Steve Zissou
+5,12,7.7,Airport '07
+5,13,7.2,Bill & Peter's Bogus Journey
+5,14,7.2,No Meals on Wheels
+5,15,7.3,Boys Do Cry
+5,16,7.4,No Chris Left Behind
+5,17,7.5,"It Takes a Village Idiot, and I Married One"
+5,18,8.4,Meet the Quagmires
+6,1,8.2,Blue Harvest
+6,2,7.2,Movin' Out (Brian's Song)
+6,3,7.4,"Believe It or Not, Joe's Walking on Air"
+6,4,8.4,Stewie Kills Lois
+6,5,8.4,Lois Kills Stewie
+6,6,6.9,Padre de Familia
+6,7,7.3,Peter's Daughter
+6,8,7.6,McStroke
+6,9,7.5,Back to the Woods
+6,10,7.2,"Play It Again, Brian"
+6,11,6.8,The Former Life of Brian
+6,12,7.6,Long John Peter
+7,1,6.7,Love Blactually
+7,2,8.0,I Dream of Jesus
+7,3,8.1,Road to Germany
+7,4,7.5,Baby Not on Board
+7,5,7.6,The Man with Two Brians
+7,6,7.2,Tales of a Third Grade Nothing
+7,7,7.6,Ocean's Three and a Half
+7,8,7.5,Family Gay
+7,9,6.3,The Juice Is Loose!
+7,10,6.9,FOX-y Lady
+7,11,7.6,Not All Dogs Go to Heaven
+7,12,7.5,420
+7,13,8.0,Stew-Roids
+7,14,7.4,We Love You Conrad
+7,15,8.2,Three Kings
+7,16,7.2,Peter's Progress
+8,1,9.1,Road to the Multiverse
+8,2,7.1,Family Goy
+8,3,6.8,Spies Reminiscent of Us
+8,4,7.2,Brian's Got a Brand New Bag
+8,5,7.1,Hannah Banana
+8,6,7.3,Quagmire's Baby
+8,7,7.1,Jerome Is the New Black
+8,8,7.5,Dog Gone
+8,9,7.4,Business Guy
+8,10,7.5,Big Man on Hippocampus
+8,11,7.5,Dial Meg for Murder
+8,12,6.8,Extra Large Medium
+8,13,7.3,"Go, Stewie, Go!"
+8,14,6.8,Peter-assment
+8,15,7.2,Brian Griffin's House of Payne
+8,16,7.2,April in Quahog
+8,17,7.6,Brian & Stewie
+8,18,7.5,Quagmire's Dad
+8,19,7.3,The Splendid Source
+8,20,7.7,"Something, Something, Something, Dark Side"
+8,21,7.3,Partial Terms of Endearment
+9,1,8.6,And Then There Were Fewer
+9,2,6.6,Excellence in Broadcasting
+9,3,7.0,Welcome Back Carter
+9,4,7.9,Halloween on Spooner Street
+9,5,7.1,"Baby, You Knock Me Out"
+9,6,6.8,Brian Writes a Bestseller
+9,7,8.3,Road to the North Pole
+9,8,7.5,New Kidney in Town
+9,9,7.1,And I'm Joyce Kinney
+9,10,7.3,Friends of Peter G.
+9,11,6.8,German Guy
+9,12,7.2,The Hand That Rocks the Wheelchair
+9,13,7.2,Trading Places
+9,14,7.1,Tiegs for Two
+9,15,6.8,Brothers & Sisters
+9,16,8.1,The Big Bang Theory
+9,17,6.4,Foreign Affairs
+9,18,7.3,It's a Trap!
+10,1,7.3,Lottery Fever
+10,2,6.4,Seahorse Seashell Party
+10,3,6.2,Screams of Silence: The Story of Brenda Q
+10,4,7.1,Stewie Goes for a Drive
+10,5,8.8,Back to the Pilot
+10,6,6.7,Thanksgiving
+10,7,7.0,Amish Guy
+10,8,7.5,Cool Hand Peter
+10,9,6.7,Grumpy Old Man
+10,10,7.2,Meg and Quagmire
+10,11,7.8,The Blind Side
+10,12,7.0,Livin' on a Prayer
+10,13,6.8,Tom Tucker: The Man and His Dream
+10,14,7.0,Be Careful What You Fish For
+10,15,6.8,Burning Down the Bayit
+10,16,7.4,Killer Queen
+10,17,8.0,Forget-Me-Not
+10,18,7.1,"You Can't Do That on Television, Peter"
+10,19,7.7,Mr. & Mrs. Stewie
+10,20,7.7,Leggo My Meg-O
+10,21,6.5,Tea Peter
+10,22,7.7,Family Guy Viewer Mail #2
+10,23,7.3,Internal Affairs
+11,1,7.3,Into Fat Air
+11,2,7.2,Ratings Guy
+11,3,6.7,The Old Man and the Big 'C'
+11,4,8.4,Yug Ylimaf
+11,5,7.2,Joe's Revenge
+11,6,7.4,Lois Comes Out of Her Shell
+11,7,7.0,Friends Without Benefits
+11,8,6.8,"Jesus, Mary and Joseph!"
+11,9,7.2,Space Cadet
+11,10,7.1,Brian's Play
+11,11,7.0,The Giggity Wife
+11,12,7.3,Valentine's Day in Quahog
+11,13,6.7,Chris Cross
+11,14,6.8,Call Girl
+11,15,6.7,Turban Cowboy
+11,16,7.5,12 and a Half Angry Men
+11,17,6.8,Bigfat
+11,18,7.1,Total Recall
+11,19,6.6,Save the Clam
+11,20,7.2,Farmer Guy
+11,21,7.9,Roads to Vegas
+11,22,6.6,No Country Club for Old Men
+12,1,6.9,Finders Keepers
+12,2,5.6,Vestigial Peter
+12,3,7.1,Quagmire's Quagmire
+12,4,6.6,A Fistful of Meg
+12,5,6.3,Boopa-dee Bappa-dee
+12,6,4.4,Life of Brian
+12,7,6.2,Into Harmony's Way
+12,8,7.6,Christmas Guy
+12,9,6.5,Peter Problems
+12,10,6.9,Grimm Job
+12,11,5.9,Brian's a Bad Father
+12,12,6.2,Mom's the Word
+12,13,6.4,3 Acts of God
+12,14,5.2,Fresh Heir
+12,15,6.8,Secondhand Spoke
+12,16,5.6,"Herpe, the Love Sore"
+12,17,6.9,The Most Interesting Man in the World
+12,18,6.8,Baby Got Black
+12,19,7.1,Meg Stinks!
+12,20,7.1,He's Bla-ack!
+12,21,7.0,Chap Stewie
+13,1,8.4,The Simpsons Guy
+13,2,6.6,The Book of Joe
+13,3,6.9,Baking Bad
+13,4,6.6,Brian the Closer
+13,5,6.8,Turkey Guys
+13,6,5.8,"The 2,000-Year-Old Virgin"
+13,7,7.4,"Stewie, Chris & Brian's Excellent Adventure"
+13,8,7.0,Our Idiot Brian
+13,9,6.7,This Little Piggy
+13,10,6.6,Quagmire's Mom
+13,11,6.5,Encyclopedia Griffin
+13,12,5.6,Stewie Is Enceinte
+13,13,6.5,Dr. C and the Women
+13,14,7.1,#JOLO
+13,15,6.7,Once Bitten
+13,16,7.2,Roasted Guy
+13,17,6.8,Fighting Irish
+13,18,7.3,Take My Wife
+14,1,7.2,Pilling Them Softly
+14,2,7.1,Papa Has a Rollin' Son
+14,3,7.0,"Guy, Robot"
+14,4,7.6,Peternormal Activity
+14,5,6.8,"Peter, Chris & Brian"
+14,6,6.5,Peter's Sister
+14,7,6.7,Hot Pocket-Dial
+14,8,6.8,Brokeback Swanson
+14,9,7.1,A Shot in the Dark
+14,10,6.8,"Candy, Quahog Marshmallow"
+14,11,7.1,The Peanut Butter Kid
+14,12,6.9,Scammed Yankees
+14,13,7.1,An App a Day
+14,14,7.2,Underage Peter
+14,15,8.0,A Lot Going on Upstairs
+14,16,6.7,The Heartbreak Dog
+14,17,7.0,Take a Letter
+14,18,7.0,The New Adventures of Old Tom
+14,19,6.7,"Run, Chris, Run"
+14,20,7.1,Road to India
+15,1,7.1,The Boys in the Band
+15,2,6.8,Bookie of the Year
+15,3,7.3,American Gigg-olo
+15,4,6.7,Inside Family Guy
+15,5,6.9,"Chris Has Got a Date, Date, Date, Date, Date"
+15,6,6.8,Hot Shots
+15,7,7.4,High School English
+15,8,6.8,Carter and Tricia
+15,9,7.2,How the Griffin Stole Christmas
+15,10,7.4,Passenger Fatty-Seven
+15,11,6.6,Gronkowsbees
+15,12,6.9,Peter's Def Jam
+15,13,6.8,The Finer Strings
+15,14,7.3,The Dating Game
+15,15,7.1,Cop and a Half-Wit
+15,16,7.5,Saturated Fat Guy
+15,17,6.6,Peter's Lost Youth
+15,18,7.2,The Peter Principal
+15,19,6.9,Dearly Deported
+15,20,7.1,A House Full of Peters
+16,1,8.2,Emmy-Winning Episode
+16,2,7.2,Foxx in the Men House
+16,3,7.3,Nanny Goats
+16,4,7.1,Follow the Money
+16,5,7.8,Three Directors
+16,6,8.2,The D in Apartment 23
+16,7,6.5,Petey IV
+16,8,7.4,Crimes and Meg's Demeanor
+16,9,7.1,Don't Be a Dickens at Christmas
+16,10,7.1,Boy (Dog) Meets Girl (Dog)
+16,11,7.5,Dog Bites Bear
+16,12,6.0,"Send in Stewie, Please"
+16,13,6.8,V is for Mystery
+16,14,6.7,Veteran Guy
+16,15,7.3,The Woof of Wall Street
+16,16,6.8,'Family Guy' Through the Years
+16,17,8.0,Switch the Flip
+16,18,7.7,HTTPete
+16,19,6.6,The Unkindest Cut
+16,20,6.5,"Are You There God? It's Me, Peter"
+17,1,6.4,Married with Cancer
+17,2,6.9,Dead Dog Walking
+17,3,7.0,Pal Stewie
+17,4,7.7,Big Trouble in Little Quahog
+17,5,6.5,Regarding Carter
+17,6,6.7,Stand by Meg
+17,7,6.8,The Griffin Winter Games
+17,8,5.5,Con Heiress
+17,9,6.6,Pawtucket Pete
+17,10,6.4,Hefty Shades of Gray
+17,11,5.4,Trump Guy
+17,12,6.6,"Bri, Robot"
+17,13,6.0,Trans-Fat
+17,14,6.7,Family Guy Lite
+17,15,6.5,"No Giggity, No Doubt"
+17,16,3.8,You Can't Handle the Booth
+17,17,6.9,Island Adventure
+17,18,6.6,Throw It Away
+17,19,6.8,"Girl, Internetted"
+17,20,6.9,Adam West High
+18,1,5.8,Yacht Rocky
+18,2,5.8,Bri-Da
+18,3,6.5,Absolutely Babulous
+18,4,7.2,Disney's The Reboot
+18,5,6.8,Cat Fight
+18,6,7.0,Peter & Lois' Wedding
+18,7,6.7,Heart Burn
+18,8,6.6,Shanksgiving
+18,9,6.8,Christmas Is Coming
+18,10,6.5,Connie's Celica
+18,11,6.7,Short Cuts
+18,12,6.7,Undergrounded
+18,13,7.2,Rich Old Stewie
+18,14,6.6,The Movement
+18,15,7.2,Baby Stewie
+18,16,6.3,Start Me Up
+18,17,7.0,Coma Guy
+18,18,6.5,Better Off Meg
+18,19,6.3,Holly Bibble
+18,20,6.6,Movin' In (Principal Shepherd's Song)
+19,1,6.7,Stewie's First Word
+19,2,6.3,The Talented Mr. Stewie
+19,3,5.7,Boys & Squirrels
+19,4,6.0,CutawayLand
+19,5,6.7,La Famiglia Guy
+19,6,6.5,Meg's Wedding
+19,7,7.2,Wild Wild West
+19,8,5.7,Pawtucket Pat
+19,9,7.2,The First No L
+19,10,7.5,Fecal Matters
+19,11,7.1,Boy's Best Friend
+19,12,6.0,And Then There's Fraud
+19,13,8.3,PeTerminator

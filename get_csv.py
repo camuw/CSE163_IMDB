@@ -45,6 +45,7 @@ class GetCSV:
         name = pd.DataFrame(data, columns=['season', 'episode_num',
                                            'imdb_rating', 'title'])
         name.to_csv('{}.csv'.format(string), index=False)
+        return name
 
     def get_season_length(self, tt_string):
         '''
@@ -54,7 +55,7 @@ class GetCSV:
         '''
         ia = imdb.IMDb()
         series = ia.get_movie(tt_string)
-        print(series)
+        #print(series)
         count = series.data['number of seasons']
         return(count)
 

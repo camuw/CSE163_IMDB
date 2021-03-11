@@ -6,17 +6,18 @@ user_input = False
 
 def main():
     reader = GetCSV()
-    if input("Do you want to input TV shows? Y or N : ") == "Y":
-        string1 = input("Enter 1st TV show: ")
-        string2 = input("Enter 2nd TV show: ")
-    else:
-        string1 = "Family Guy"
-        string2 = "American Dad"
-    tt_string1 = reader.get_ttcode(string1)
+    #if input("Do you want to input TV shows? Y or N : ") == "Y":
+        #string1 = input("Enter 1st TV show: ")
+        #string2 = input("Enter 2nd TV show: ")
+    #else:
+    string1 = "Family Guy"
+    string2 = "American Dad"
+    tt_string1 = reader.get_ttcode(string1, 1)
     season_length1 = reader.get_season_length(tt_string1)
+    print(tt_string1, season_length1)
     data1 = reader.get_csv(tt_string1, season_length1, string1)
 
-    tt_string2 = reader.get_ttcode(string2)
+    tt_string2 = reader.get_ttcode(string2, 0)
     season_length2 = reader.get_season_length(tt_string2)
     data2 = reader.get_csv(tt_string2, season_length2, string2)
 

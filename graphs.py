@@ -8,6 +8,7 @@ class Graphs:
         self._name = None
 
     def scatterplot(self, data1, data2, string1, string2):
+        print(data1)
         concat = pd.concat([data1.assign(shows=string1),
                             data2.assign(shows=string2)])
         concat['imdb_rating'] = pd.to_numeric(concat['imdb_rating'])
