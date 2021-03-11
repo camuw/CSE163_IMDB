@@ -54,7 +54,7 @@ class Graphs:
                  + " ratings of {} v" 
                  + "s {}").format(string1.capitalize(),
                                   string2.capitalize(), loc='left')
-        fig.suptitle(title, pad=0.2)
+        fig.suptitle(title, verticalalignment='bottom')
         for i in range(seasons-5, seasons):
             concatenated1 = concat[concat['season'] == i + 1]
             print(concatenated1)
