@@ -25,18 +25,30 @@ def main():
         string2 = input("Enter 2nd TV show: ")
         print()
         list1 = reader.get_ttcode_list(string1)
-        print(list1)
+        print("Top 5 Search Results for ", string1, " :")
+        #print(list1)
+        for i in range(5):
+            print((i+1),". ",list1[i])
         print()
-        print('Select the show that is most representive. Index starts at 0')
-        print('Index goes up by one after every comma.')
+        print('Select which show you prefer by their number.')
+        #print('Index goes up by one after every line. Start from the top.')
         index1 = input("Select the index you prefer ")
+        index1 = str(int(index1)-1)
+        #index1 -= 1
         print('\n')
         list2 = reader.get_ttcode_list(string2)
-        print(list2)
+        #print(list2)
         print()
-        print('Select the show that is most representive. Index starts at 0')
-        print('Index goes up by one after every comma.')
+        print("Top 5 Search Results for ", string2, " :")
+        #print(list2)
+        for i in range(5):
+            print((i+1),". ",list2[i])
+        print()
+        print('Select the show that you prefer by their number.')
+        #print('Index goes up by one after every line. Start from the top.')
         index2 = input("Select the index you prefer: ")
+        index2 = str(int(index2)-1)
+        #index2 -= 1
     else:
         string1 = "Family Guy"
         string2 = "American Dad"
