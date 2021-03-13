@@ -1,7 +1,7 @@
 '''
-this program is the main method for out program. It takes in the nessisary
-inputs and drives the program. It deafults to doing family guy and american Dad
-unless otherwise directed.
+This file has our main method for our program. It takes in the necessary
+inputs and drives the program. It defaults the inputs to be Family Guy
+and American Dad unless the user specifies his/her own shows.
 '''
 from get_csv import GetCSV
 from graphs import Graphs
@@ -11,27 +11,32 @@ user_input = False
 
 def main():
     '''
-    In this method we ask the user if the want to enter a show
-    if not it defaults family guy and american dad. Due to an error in the imdb
-    PY data base, family guy when searched the first output the sorpranos. In
-    our testing this error does not happen on most other tv show. To fix these
-    we coded in an index feature for each of the data sets. From here we are
-    set the respected dataset and graph them 3 differnt ways.
+    In this method we ask the user if they want to enter a show, and if they
+    type 'N' the program defaults to Family Guy and American Dad. Due to an
+    error in the IMDb PY data base, whenever Family Guy is searched the first
+    output is "The Sorpranos". After testing we found that, this error does not
+    happen on most tv shows. To fix this we coded in an index feature for
+    each of the data sets. From there we create the respected dataset and graph
+    them 3 different ways.
     '''
     reader = GetCSV()
     if input("Do you want to input TV shows? Y or N : ") == "Y":
         string1 = input("Enter 1st TV show: ")
         string2 = input("Enter 2nd TV show: ")
+        print()
         list1 = reader.get_ttcode_list(string1)
         print(list1)
+        print()
         print('Select the show that is most representive. Index starts at 0')
         print('Index goes up by one after every comma.')
-        index1 = input("Select the index of best fit: ")
+        index1 = input("Select the index you prefer ")
+        print('\n')
         list2 = reader.get_ttcode_list(string2)
         print(list2)
+        print()
         print('Select the show that is most representive. Index starts at 0')
         print('Index goes up by one after every comma.')
-        index2 = input("Select the index: ")
+        index2 = input("Select the index you prefer: ")
     else:
         string1 = "Family Guy"
         string2 = "American Dad"

@@ -1,10 +1,9 @@
 '''
-This file takes in the the search terms and then finds the correct the url for
-the search term using get tt code method. With the tt code it then the season
-length via the imdbPY database. From here the scraper does it work by requesting
-the URL for each of the seasons. It then parses through the html and finds the
-nessisary vaules. From here they are exported to a csv with title of the first
-string within the seach term.
+This file takes in the search terms and finds the correct url for the search
+terms using the get_ttcode() method. From here the scraper requests the URL
+for each of the seasons. The program will then parse through the html file
+and finds the necessary values. From here those values are exported to a
+csv with the title of the first string within the seach term.
 '''
 from bs4 import BeautifulSoup
 from requests import get
@@ -14,25 +13,25 @@ import pandas as pd
 
 class GetCSV:
     '''
-    this class is responsable for getting all of the info for the file names.
-    it takes in a string and then get the imdb TT code based on the index. From
-    here it finds the season length through imdbpy. Then using these it loops
-    through the html for the respective seaons. It exports them to csv using them
-    first word in the search term.
+    This class is responsible for getting all of the info for the file names.
+    The program takes in a string and then retrieves the imdb TT code based
+    on the index. From here it finds the season length through imdbpy. Then
+    using these values, the program loops through the html for the respective
+    seasons. It exports them to csv using the first word in the search term.
     '''
     def get_csv(self, tt_code, season_length, string):
         '''
-        this method takes in the season-length and the ttcode and requests the
-        url from imdb. From here it loops over all of the episode blocks within
-        the URL and finds the sn number, the episode num and the imdb rating as
-        well as title. In order to avoid an error where tv shows are listed but
-        not yet rated. We use the the try feature to see if there is a rating.
-        If the episode isn't rated then we break out of the loop. This could
-        cause problems on more obscure shows. Next the main loops over all of
-        the seasons by using adding the season string at the end of the url.
-        Finally the list of lists collected in the web scraper is put into a
-        panda file and then exported to a csv. With the word of the string
-        being the name of the file.
+        This method takes in the season-length and the ttcode in order to
+        request the url from imdb. From here it loops over all of the episode
+        blocks within the URL and finds the season, the episode number, the
+        imdb rating, and title. In order to avoid an error where tv shows
+        are listed but not yet rated, we use the the try feature to see if there
+        is a rating. If the episode isn't rated then we break out of the loop,
+        however this could cause problems on more obscure shows. Next the main
+        loops over all of the seasons by adding the season string at the end of
+        the url. Finally the list of lists collected in the web scraper is put
+        into a panda file and then exported to a csv(with the word of the string
+        being the name of the file).
         '''
         string = string.split()[0]
         url = ('https://www.imdb.com/title/tt{code}/episodes'
@@ -64,9 +63,9 @@ class GetCSV:
 
     def get_season_length(self, tt_string):
         '''
-        this uses the imdbPY plug in to find the number of seasons based on the
-        tt code found in the former method. From here we look at the
-        seasonlength column in the imdbPy data base.
+        This method uses the imdbPY plug in to find the number of seasons based
+        on the tt code found in the former method. From here we look at the
+        season-length column in the imdbPy data base.
         '''
         ia = imdb.IMDb()
         series = ia.get_movie(tt_string)
@@ -76,9 +75,9 @@ class GetCSV:
 
     def get_ttcode_list(self, string):
         '''
-        This method uses the imdbpy package in get a list of potential results
-        From the search string. We use this as a double check to make sure
-        the user has the correct TV show/
+        This method uses the imdbpy package and gets a list of potential results
+        from the search string. We use this as a double check to make sure the
+        user has the correct TV show.
         '''
         ia = imdb.IMDb()
         search = ia.search_movie(string)
@@ -89,12 +88,13 @@ class GetCSV:
 
     def get_ttcode(self, string, index):
         '''
-        Takes in the index and the string term both from user input. We have
-        done the index as often there is unexpected result terms from the
-        search. We encounterd some strange result, like getting the sorpranos
-        when searching family guy. Then we are copy the search method from
-        above, but import the term index from user input so we can make sure
-        that the right show is being extracted.
+        This method takes in the index and the string term both from user
+        input. We have done this since the default index can give us unexpected
+        result terms from the search. We encountered some strange result, for
+        example we kept getting "The Sorpranos" when searching Family Guy. This
+        method then calls the search movie method from IMDB package but we
+        import the term index from user input so we can make sure that the right
+        show is being extracted.
         '''
         ia = imdb.IMDb()
         search = ia.search_movie(string)
