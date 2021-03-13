@@ -88,9 +88,10 @@ class Graphs:
         fig.suptitle(title, verticalalignment='bottom')
         for i in range(seasons-5, seasons):
             concatenated1 = concat[concat['season'] == i + 1]
-            #print(concatenated1)
-            sns.scatterplot(ax=axes[i-offest], x='episode_num', y='imdb_rating',
-                            data=concatenated1, hue="shows")
+            # print(concatenated1)
+            sns.scatterplot(ax=axes[i-offest], x='episode_num',
+                            y='imdb_rating', data=concatenated1,
+                            hue="shows")
             axes[i-offest].set_xlabel('Season '+str(i+1))
             if i-offest == 0:
                 axes[i-offest].set_ylabel('IMDB Rating')

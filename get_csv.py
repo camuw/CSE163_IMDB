@@ -25,13 +25,13 @@ class GetCSV:
         request the url from imdb. From here it loops over all of the episode
         blocks within the URL and finds the season, the episode number, the
         imdb rating, and title. In order to avoid an error where tv shows
-        are listed but not yet rated, we use the the try feature to see if there
-        is a rating. If the episode isn't rated then we break out of the loop,
-        however this could cause problems on more obscure shows. Next the main
-        loops over all of the seasons by adding the season string at the end of
-        the url. Finally the list of lists collected in the web scraper is put
-        into a panda file and then exported to a csv(with the word of the string
-        being the name of the file).
+        are listed but not yet rated, we use the the try feature to see if
+        there is a rating. If the episode isn't rated then we break out of the
+        loop, however this could cause problems on more obscure shows. Next
+        the main loops over all of the seasons by adding the season string at
+        the end of the url. Finally the list of lists collected in the web
+        scraper is put into a panda file and then exported to a csv(with the
+        word of the string being the name of the file).
         '''
         string = string.split()[0]
         url = ('https://www.imdb.com/title/tt{code}/episodes'
@@ -69,15 +69,15 @@ class GetCSV:
         '''
         ia = imdb.IMDb()
         series = ia.get_movie(tt_string)
-        #print(series)
+        # print(series)
         count = series.data['number of seasons']
         return(count)
 
     def get_ttcode_list(self, string):
         '''
-        This method uses the imdbpy package and gets a list of potential results
-        from the search string. We use this as a double check to make sure the
-        user has the correct TV show.
+        This method uses the imdbpy package and gets a list of potential
+        results from the search string. We use this as a double check to
+        make sure the user has the correct TV show.
         '''
         ia = imdb.IMDb()
         search = ia.search_movie(string)
@@ -93,8 +93,8 @@ class GetCSV:
         result terms from the search. We encountered some strange result, for
         example we kept getting "The Sorpranos" when searching Family Guy. This
         method then calls the search movie method from IMDB package but we
-        import the term index from user input so we can make sure that the right
-        show is being extracted.
+        import the term index from user input so we can make sure that the
+        right show is being extracted.
         '''
         ia = imdb.IMDb()
         search = ia.search_movie(string)
