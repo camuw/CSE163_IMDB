@@ -16,8 +16,9 @@ def main():
     error in the IMDb PY data base, whenever Family Guy is searched the first
     output is "The Sorpranos". After testing we found that, this error does not
     happen on most tv shows. To fix this we coded in an index feature for
-    each of the data sets. From there we create the respected dataset and graph
-    them 3 different ways.
+    each of the data sets. if the user wants to put in their own TV show the are
+    prompted to selct theirapportare show from a list. From there we create the
+    respective dataset and graph them 3 different ways.
     '''
     reader = GetCSV()
     if input("Do you want to input TV shows? Y or N : ") == "Y":
