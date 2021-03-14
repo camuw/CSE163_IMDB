@@ -46,12 +46,15 @@ class GetCSV:
                 season = sn
                 episode_num = episodes.meta['content']
                 try:
-                    imdb_rating = episodes.find('span',
-                                                class_='ipl-rating-star'
-                                                       + '__rating').text
-                except:
+                    find = episodes.find('span',
+                                         class_='ipl-rating-star'
+                                         + '__rating')
+                    if find is None:
+                        raise TypeError
+                except TypeError:
                     break
                 else:
+                    imdb_rating = find.text
                     title = episodes.a['title']
                     episode_info = [season, episode_num, imdb_rating, title]
                     data.append(episode_info)

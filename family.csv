@@ -155,7 +155,7 @@ season,episode_num,imdb_rating,title
 9,7,8.3,Road to the North Pole
 9,8,7.5,New Kidney in Town
 9,9,7.1,And I'm Joyce Kinney
-9,10,7.3,Friends of Peter G.
+9,10,7.2,Friends of Peter G.
 9,11,6.8,German Guy
 9,12,7.2,The Hand That Rocks the Wheelchair
 9,13,7.2,Trading Places
@@ -359,5 +359,6 @@ season,episode_num,imdb_rating,title
 19,9,7.2,The First No L
 19,10,7.4,Fecal Matters
 19,11,7.1,Boy's Best Friend
-19,12,6.0,And Then There's Fraud
+19,12,5.9,And Then There's Fraud
 19,13,8.2,PeTerminator
+19,14,9.5,The Marrying Kind
