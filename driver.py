@@ -56,16 +56,16 @@ def main():
         index1 = 1
         index2 = 0
     print("Please hold while we scrape your data")
+    graphs = Graphs()
     tt_string1 = reader.get_ttcode(string1, index1)
     season_length1 = reader.get_season_length(tt_string1)
-    print(tt_string1, season_length1)
+    # print(tt_string1, season_length1)
     data1 = reader.get_csv(tt_string1, season_length1, string1)
 
     tt_string2 = reader.get_ttcode(string2, index2)
     season_length2 = reader.get_season_length(tt_string2)
     data2 = reader.get_csv(tt_string2, season_length2, string2)
-
-    graphs = Graphs()
+    graphs.testing(data1, data2, string1, string2)
     graphs.scatterplot(data1, data2, string1, string2)
     graphs.boxplot(data1, data2, string1, string2)
     graphs.multi(data1, data2, string1, string2)

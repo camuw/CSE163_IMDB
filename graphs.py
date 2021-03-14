@@ -18,6 +18,21 @@ class Graphs:
     trendlines, acomparative boxplot, and a figure with scatterplots
     of the last 5 seasons of both shows.
     '''
+    def testing(self, data1, data2, string1, string2):
+        '''
+        This method is used primarily for testing / comparison
+        purposes. This method simply lists the top 5 highest rated
+        episodes for each of the two shows, as well as their rating
+        and season and episode number.
+        '''
+        data1['imdb_rating'] = pd.to_numeric(data1['imdb_rating'])
+        data2['imdb_rating'] = pd.to_numeric(data2['imdb_rating'])
+        print("Top 5 highest rated episodes for each show")
+        print(string1 + ":")
+        print(data1.nlargest(5, 'imdb_rating'))
+        print("\n" + string2 + ":")
+        print(data2.nlargest(5, 'imdb_rating'))
+
     def scatterplot(self, data1, data2, string1, string2):
         '''
         This method generates two scatterplots from two sets of data and
