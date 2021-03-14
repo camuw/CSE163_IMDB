@@ -33,7 +33,7 @@ def main():
         print()
         print('Select which show you prefer by their number.')
         # print('Index goes up by one after every line. Start from the top.')
-        index1 = input("Select the index you prefer ")
+        index1 = input("Select the index you prefer: ")
         index1 = str(int(index1)-1)
         # index1 -= 1
         print('\n')
@@ -55,6 +55,7 @@ def main():
         string2 = "American Dad"
         index1 = 1
         index2 = 0
+    print("Please hold while we scrape your data")
     tt_string1 = reader.get_ttcode(string1, index1)
     season_length1 = reader.get_season_length(tt_string1)
     print(tt_string1, season_length1)

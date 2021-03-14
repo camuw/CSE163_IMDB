@@ -8,7 +8,7 @@ Winter CSE 163
 - Pandas
 - request
 
->**You can install all of these at once with this line:** pip install beautifulsoup4 IMDbPY pandas request
+>**You can install all of these at once with this line:** pip install beautifulsoup4 IMDbPY pandas requests
 
 After installing the required libraries, you should be good to go to use this tool!
 
